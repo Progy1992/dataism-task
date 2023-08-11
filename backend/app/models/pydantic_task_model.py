@@ -15,4 +15,4 @@ class TaskModel(BaseModel):
 
     name: str = Field(..., description="Name of the task", min_length=1)
     description: str = Field(
-        None, description="Description of the task", min_length=1, max_length=500)
+        ..., description="Description of the task", min_length=1, max_length=500)

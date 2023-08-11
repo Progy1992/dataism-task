@@ -26,5 +26,5 @@ Date:
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    app.run(debug=True, port=8000)
     # command to run server = gunicorn -c gunicorn_config.py app:app

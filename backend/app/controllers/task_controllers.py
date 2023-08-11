@@ -1,7 +1,7 @@
 from flask import jsonify, request, Blueprint
 from ..service.task_service import TaskService
 from ..logger import logger
-from ..models.pydantick_task_model import TaskModel
+from ..models.pydantic_task_model import TaskModel
 from pydantic import ValidationError
 
 task_blue_print = Blueprint('task_routes', __name__)
