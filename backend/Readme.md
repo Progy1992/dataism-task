@@ -1,6 +1,6 @@
 # Task API Documentation
 
-The Task API Controller provides endpoints to manage tasks using a Flask Blueprint. This controller handles CRUD (Create, Read, Update, Delete) operations for tasks.
+The Task API Service provides endpoints to manage tasks using a Flask Blueprint. This service handles CRUD (Create, Read, Update, Delete) operations for tasks.
 
 ## Endpoints
 
