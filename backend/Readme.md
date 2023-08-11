@@ -25,7 +25,6 @@ Retrieve a list of all tasks.
             "created_at": "2023-08-11T12:34:56Z",
             "updated_at": "2023-08-12T12:34:56Z"
         },
-        // ...
     ],
     "message": "Successfully retrieved all the tasks"
 }
