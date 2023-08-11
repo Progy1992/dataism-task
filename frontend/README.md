@@ -42,4 +42,4 @@ Once the image is built, you can run the Docker container:
 docker run -d -p 3001:3000 frontend
 ```
 
-Your Flask app will be accessible at `http://localhost:8000`.
+Your React app will be accessible at `http://localhost:3001`.
